@@ -1,0 +1,35 @@
+# Unreal Engine 临时文件夹
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 平台相关文件
+Build/Android/
+Build/IOS/
+Build/Windows/
+
+# Visual Studio 文件
+.vs/
+*.VC.db
+*.VC.opendb
+*.user
+*.suo
+
+# Unreal Engine 文件类型
+*.log
+*.tmp
+*.dds
+*.tga
+
+
+# 允许 `Content` 文件夹下的 .uasset 和 .umap 文件
+!Content/**/*.uasset
+!Content/**/*.umap
+!Content/Space_Creator_Pro/
+
+# 包含必要的文件夹和项目文件
+!Source/
+!Content/
+!Config/
+!TEST.uproject
